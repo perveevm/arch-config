@@ -172,7 +172,7 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
 #Locker configuration START
-set $Locker lock.sh && sleep 1
+set $Locker i3lock-fancy -g && sleep 1
 
 set $mode_system System (l) lock, (s) suspend, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
