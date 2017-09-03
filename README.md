@@ -1,7 +1,7 @@
 # My Arch Linux and i3 config
 
-* .bashrc			-> ~/
-* .xinitrc			-> ~/
+* .bashrc			-> ~/.bashrc
+* .xinitrc			-> ~/.xinitrc
 * i3config			-> ~/.config/i3/config
 * i3statusconfig		-> ~/.config/i3status/config
 * logind.conf			-> /etc/systemd/logind.conf
