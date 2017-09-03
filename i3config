@@ -162,7 +162,7 @@ bindsym XF86AudioRaiseVolume exec "amixer set 'Master' 5%+"
 bindsym XF86AudioLowerVolume exec "amixer set 'Master' 5%-"
 #Mute
 bindsym XF86AudioMute exec "amixer set Master toggle"
-
+#Mute micro
 bindsym $mod+Shift+m exec "amixer set Capture toggle"
 
 #Brightness settings
